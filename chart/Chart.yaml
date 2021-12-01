@@ -1,0 +1,8 @@
+apiVersion: v2
+name: governance-watch
+description: Watches for new forum, chat posts that discuss governance
+type: application
+
+# The helm command will override these values in CICD.
+version: 0.1.0
+appVersion: "0.1.0"
